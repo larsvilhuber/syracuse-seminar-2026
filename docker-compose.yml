@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  rstudio:
+    image: ${DOCKERSPACE}/${DOCKERREPO}:${TAG}
+    container_name: ${CONTAINER_NAME}
+    environment:
+      - DISABLE_AUTH=true
+    ports:
+      - "8787:8787"    # RStudio
+      - "5872:5872"    # (unknown service)
+      - "3456:3456"    # Quarto preview
+    volumes:
+      - .:/home/rstudio/project
+      - .cache:/home/rstudio/.local/share/R/renv/cache
+    working_dir: /home/rstudio/project
+    stdin_open: true
+    tty: true
+
+volumes:
+  renv_cache:

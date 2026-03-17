@@ -18,6 +18,13 @@ if [[ ! -z "$1" ]]
 then
   tag=${1}
 fi
+shift
+
+if [[ ! -z "$1" ]]
+then
+  echo "Passing additional arguments to docker run: $@"
+  DOCKEREXTRA="$DOCKEREXTRA -it"
+fi
 
 echo "Using tag = $tag"
 
@@ -31,7 +38,7 @@ case $USER in
 esac
   
 # pull the docker if necessary
-set -ev
+set -v
 
 echo $space/$repo
 tag_present=$(docker images | grep $space/$repo | awk ' { print $2 } ' | grep $tag)
@@ -49,7 +56,9 @@ fi
 if [[ -d $WORKSPACE/.cache ]]
 then
   echo "Found cache"
-  DOCKERXTRA="$DOCKERXTRA -v $WORKSPACE/.cache:/home/rstudio/.cache"
+  # Ensure cache directory is writable
+  chmod a+rwX $WORKSPACE/.cache
+  DOCKEREXTRA="$DOCKEREXTRA -v $WORKSPACE/.cache:/home/rstudio/.cache"
 fi
 
-docker run -e DISABLE_AUTH=true -v "$WORKSPACE":/home/rstudio/project --rm -p 8787:8787 -p 5872:5872 $space/$repo:$tag
+docker run $DOCKEREXTRA -e DISABLE_AUTH=true -e RENV_PATHS_CACHE=/home/rstudio/.cache -v "$WORKSPACE":/home/rstudio/project -w /home/rstudio/project --rm -p 8787:8787 -p 5872:5872 -p 3456:3456 $space/$repo:$tag $@
