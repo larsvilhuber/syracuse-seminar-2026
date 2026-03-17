@@ -61,4 +61,4 @@ then
   DOCKEREXTRA="$DOCKEREXTRA -v $WORKSPACE/.cache:/home/rstudio/.cache"
 fi
 
-docker run $DOCKEREXTRA -e DISABLE_AUTH=true -e RENV_PATHS_CACHE=/home/rstudio/.cache -v "$WORKSPACE":/home/rstudio/project -w /home/rstudio/project --rm -p 8787:8787 -p 5872:5872 -p 3456:3456 $space/$repo:$tag $@
+docker run $DOCKEREXTRA -e DISABLE_AUTH=true -e RENV_PATHS_CACHE=/home/rstudio/.cache -v "$WORKSPACE":/home/rstudio/project -w /home/rstudio/project --rm -p 8787:8787  -p 3456:3456 $space/$repo:$tag $@

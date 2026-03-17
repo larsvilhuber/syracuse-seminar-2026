@@ -5,7 +5,7 @@ cff-version: 1.2.0
 title: >-
   Reproducibility: Best Practices
 message: >-
-  Presented at Yale Economics Department 11 April 2025
+  Presented at Syracuse University 18 March 2026
 type: presentation
 authors:
   - given-names: Lars
@@ -18,4 +18,4 @@ repository-code: >-
 abstract: >-
   Journals require that you share your code and data in a replication package upon acceptance. Efficient reproducibility starts at the beginning of the research project. Following some best practices can not only help you prepare a replication package later, but also make you a more productive researcher.
 license: CC-BY-NC-4.0
-date-released: '2025-04-11'
+date-released: '2026-03-18'

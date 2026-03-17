@@ -12,8 +12,8 @@
 ## Tools
 
 - Use [Template README](https://social-science-data-editors.github.io/template_README/)
-- Learn programming tricks that help streamline processing
-- Save files and tables programmatically
+- Learn [programming techniques that help streamline processing](https://larsvilhuber.github.io/self-checking-reproducibility/)
+- [Save files and tables programmatically](https://larsvilhuber.github.io/self-checking-reproducibility/03-automatically_saving_figures.html)
 
 
 ## Strategy

@@ -14,7 +14,7 @@
 
 ![](images/19dc-gaetz-payments-superJumbo.png)
 
-## Closer to home (Feb 2025)
+## Closer to home (Mar 2026)
 
 ![i4r on Bluesky](images/i4r-gdri-thread-bsky.png)
 

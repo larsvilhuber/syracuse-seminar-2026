@@ -1,6 +1,6 @@
 # Benefits
 
-## Building on the work of others
+## Science: Building on the work of others
 
 :::: {.columns}
 
@@ -20,7 +20,7 @@ Notes: "*I exclude 43 papers for which data to replicate the main event-study pl
 ::::
 
 
-## Building on the work of others: dCdH 2020
+## Science: Building on the work of others: dCdH 2020
 
 :::: {.columns}
 
@@ -28,7 +28,7 @@ Notes: "*I exclude 43 papers for which data to replicate the main event-study pl
 
 de Chaisemartin, Clément, and Xavier D'Haultfœuille. 2020. "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects." American Economic Review 110 (9): 2964–96. DOI: [10.1257/aer.20181169](https://doi.org/10.1257/aer.20181169)
 
-The results from various other papers are  recomputed to empirically demonstrate the relevance of the proposed methods.
+The results from various other papers are recomputed to empirically demonstrate the relevance of the proposed methods.
 
 :::
 
@@ -40,3 +40,16 @@ The results from various other papers are  recomputed to empirically demonstrate
 
 ::::
 
+## Personal!
+
+Consider yourself, new project now, but
+
+:::{.incremental}
+
+- in 5 years, R&R at a top journal!
+- 😠 darn, this thing worked last year, when I submitted!
+- 😨 I have no idea how to run this code, and the author (ME 5 years ago!) is not responsive!
+- 😊 Oh, I have an RA, and I can hand this off!
+- 😄 I found my README, and it explains everything!
+
+:::

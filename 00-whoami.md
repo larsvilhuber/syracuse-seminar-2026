@@ -22,7 +22,7 @@ Executive Director of the [Labor Dynamics Institute](http://www.ilr.cornell.edu/
 ::::{.columns}
 ::: {.column width="50%"}
 
-2389 Manuscripts and 4440 Reports, approx. 4400 authors reached.
+[2791 Manuscripts and 4470 Reports, approx. 5000 authors reached.](https://aeadataeditor.github.io/aea-cumulative-summary/impacts_of_aea_data_editing.html)
 
 :::
 ::: {.column width="50%"}
