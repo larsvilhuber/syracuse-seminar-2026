@@ -42,11 +42,24 @@ WEBSITE_SHORT <- paste0(GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSI
 ```{r, child=c(here::here('01-goal.md'))}
 ```
 
+```{r, child=c(here::here('02-reproducibility-extra.md'))}
+```
+
+
 ```{r, child=c(here::here('02-reproducibility.md'))}
 ```
 
 ```{r, child=c(here::here('03-goals-take2.md'))}
 ```
+
+```{r, child=c(here::here('04-who.md'))}
+```
+
+
+```{r, child=c(here::here('10-benefits.md'))}
+```
+
+
 
 ```{r, child=c(here::here('30-how.md'))}
 ```
@@ -70,12 +83,6 @@ WEBSITE_SHORT <- paste0(GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSI
 ```{r, child=c(here::here('99-links.md'))}
 ```
 
-```{r, child=c(here::here('02-reproducibility-extra.md'))}
-```
-
-
-```{r, child=c(here::here('10-benefits.md'))}
-```
 
 ```{r, child=c(here::here('90-outsourced.md'))}
 ```

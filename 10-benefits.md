@@ -1,6 +1,6 @@
 # Benefits
 
-## Science: Building on the work of others
+## Science: Building on the work of others {.smaller}
 
 :::: {.columns}
 
@@ -20,7 +20,7 @@ Notes: "*I exclude 43 papers for which data to replicate the main event-study pl
 ::::
 
 
-## Science: Building on the work of others: dCdH 2020
+## Science: Building on the work of others: dCdH 2020 {.smaller}
 
 :::: {.columns}
 
