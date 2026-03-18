@@ -2,7 +2,6 @@
 
 ## Transparency outsourced
 
-- [Talk to Limor!](https://dissc.yale.edu/people/limor-peer)
 - [Cornell's R-squared](https://socialsciences.cornell.edu/research-support/R-squared)
 - [cascad](https://www.cascad.tech/)
 - [World Bank](https://doi.org/10.1162/99608f92.21328ce3)
@@ -33,7 +32,7 @@ Why should I believe the third party?
 
 ## Applications
 
-- Limor, R-squared, cascad, World Bank!
+- R-squared, cascad, World Bank!
 - FSRDC? IRS? 
 - Meta data?
 
